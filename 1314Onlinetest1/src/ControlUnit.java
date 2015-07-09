@@ -13,14 +13,16 @@ public class ControlUnit {
 	
 	double bal;
 	public void voteForCandidates(String candidate){
-
-		totalVotes++;
+		totVotes();
+		
 		int i;
 		candidateVotes.put(candidate, i++);
 	}
 
 	
-	
+	public void totVotes(){
+		totalVotes++;
+	}
 
 	public void voteCounter(){
 
